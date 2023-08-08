@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  width: 100%;
+  display: flex;
+  flex-direction: column
+}
+header{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(83, 140, 204);
+}
+.title{
+  width: 80%;
+  text-align: center;
+  font-size: 24px;
+}
+header>div>button{
+  padding: 10px;
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container>div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.container>div>input{
+  width: 40%;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+.dog-card{
+  width: 12%;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.dog-card>img{
+  width: 100%;
+  height: 200px;
+}

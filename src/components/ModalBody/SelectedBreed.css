@@ -1,0 +1,36 @@
+.sub-breed, .dog-breed-more-images{
+    width: 100%;
+    max-height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.dog-breed-card{
+    width: 20%;
+    height: 120px;
+}
+.dog-breed-card>img{
+    width: 80%;
+    height: 80%;
+}
+.input-container{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;   
+}
+.input-container>select,.input-container>input{
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(194, 191, 191);
+    font-weight: bold;
+}
+.input-container>button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: aliceblue;
+}
